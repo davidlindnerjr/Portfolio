@@ -1,0 +1,353 @@
+/*----------------- GENERAL STYLING ------------------*/
+
+*{
+    padding:0;
+    margin:0;
+    border-style: border-box;
+}
+
+
+body{
+    background-image: url(https://i.pinimg.com/originals/72/a6/db/72a6db097ab882b4bad13d1c9fc84df4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    font-family:poppins;
+    color:white;
+}
+
+/*------------------------- NAV -----------------------------*/
+
+a:hover{
+    text-decoration:none;
+    color:#e6e6e6;
+}
+
+nav{
+    font-size:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    min-height: 8vh;
+    background-color: #1a1a1a;
+}
+
+.name{
+    color:rgb(226,226,226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    width:30%;
+}
+
+.nav-links a{
+    color:rgb(226,226,226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.burger{
+    display: none;
+    cursor:pointer;
+}
+
+.burger div{
+    background-color:rgb(226,226,226);
+    width:25px;
+    height:5px;
+    margin:3px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width:1024px){
+    .nav-links{
+        width:50%;
+    }
+}
+
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height:92vh;
+        top:8vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        background-color:#1a1a1a;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display:block;
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0px);
+    }
+}
+
+.toggle .line-1{
+    transform:rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line-2{
+    opacity:0;
+}
+
+.toggle .line-3{
+    transform:rotate(45deg) translate(-5px, -6px);
+}
+
+/*------------------------- CONTAINER -----------------------*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*----------------------- MAIN CONTENT (INDEX) ---------------------*/
+
+#main-display{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-right:100px;
+    margin-left:100px;
+    padding:75px;
+    padding-left:200px;
+    padding-right:200px;
+    margin-top:100px;
+    letter-spacing: 5px;
+}
+
+#name-text{
+    font-size: 60px;
+    text-align:center;
+}
+
+#name-sub-text{
+    font-size: 40px;
+}
+
+#project-button{
+    background-color:black;
+    color:white;
+    border-style: none;
+    border-radius: 20px;
+    font-size:20px;
+    padding:20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+#project-button:hover{
+    cursor: pointer;
+}
+
+#index-footer{
+    color:white;
+    position: fixed;
+    bottom:0px; 
+    padding-top:10px;  
+    padding-bottom:10px;
+    text-align:center;
+    width:100%;
+}
+
+/*-------------------------- PROJECTS -------------------------*/
+
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-top:5%;
+    margin-bottom:5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left:10%;
+    margin-right:10%;
+    padding:40px;
+}
+
+.project-pic{
+    width:55%;
+    height:30%;
+    margin:20px;
+}
+
+.project-list{
+    list-style: none;
+}
+.p-li{
+    margin: 5px;
+    font-size: 25px;
+}
+
+.p-li a{
+    text-decoration: none;
+    color: rgb(226,226,226);
+}
+
+.p-li a:hover{
+    color:white;
+}
+
+.title{
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(226,226,226);
+}
+
+#footer{
+    color:white;
+    position: relative;
+    bottom:0px; 
+    padding-top:10px;  
+    padding-bottom:10px;
+    text-align:center;
+    width:100%;
+}
+
+#copyright{
+    bottom:0;
+}
+
+/*---------------------- ABOUT ----------------------*/
+
+.about-text{
+    font-size: 30px;
+    padding: 30px;
+    letter-spacing: 4px;
+    color: rgb(226,226,226);
+    text-align:start;
+}
+
+/*--------------------- CONTACT ---------------------*/
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:5%;
+    margin-bottom:5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left:10%;
+    margin-right:10%;
+    padding:40px;
+    display:block;
+}
+
+.contact{
+    font-size: 30px;
+    margin: 20px;
+    letter-spacing: 4px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: rgb(226,226,226);
+    letter-spacing: 4px;
+}
+
+.contact:hover a{
+    color: white;
+}
+
+/*------------------ RESPONSIVE ---------------------*/
+
+@media screen and (min-width:1800px){
+    #main-display{
+        padding-left:400px;
+        padding-right:400px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    #name-text{
+        font-size: 90px;
+        font-weight: bold;
+    }
+    #name-sub-text{
+        font-size:55px;
+    }
+    #project-button{
+        margin-top:40px;
+        padding:30px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #main-display{
+        background-color: rgba(0, 0, 0, 0.8);
+        padding:60px;
+    }
+    #name-text {
+      font-size: 35px;
+    }
+    #name-sub-text{
+        font-size: 15px;
+    }
+    #project-button{
+        background-color:black;
+        color:white;
+        border-style: none;
+        border-radius: 20px;
+        font-size:10px;
+        padding:20px;
+        margin-top:15px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .p-li{
+        margin: 2px;
+        font-size: 15px;
+    }
+    .about-text{
+        font-size: 11px;
+        padding: 5px;
+        letter-spacing: 4px;
+        color: rgb(226,226,226);
+        text-align: start;
+    }
+    .contact{
+        font-size:15px;
+        margin: 5px;
+        letter-spacing: 1px;
+    }
+}
+
+
