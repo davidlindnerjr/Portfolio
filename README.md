@@ -8,4 +8,9 @@ I learned a lot about responsiveness. I especially learned a lot about media que
 
 __LINKS__
 
-Depolyed version: 
+Depolyed version: https://davidlindnerjr.github.io/Portfolio/
+LinkedIn: https://www.linkedin.com/in/david-lindner-9643181aa/
+
+__SCREENSHOTS__
+
+
