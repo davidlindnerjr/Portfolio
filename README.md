@@ -1,10 +1,7 @@
 # Portfolio
 
-My goal for this project was simply to one-up my previous portfolio. I wanted this version to be more mobile freindly, have dynamic and responsive elements, and have a better overall aesthetic. My biggest componenet of this version is the improved navbar; I wanted a navbar that would transform into a burger navbar for mobile responsiveness. I had a lot of trouble at first, but after looking at a few tutorials I was able to get it up and running.
-
-The first version of my portfolio was super basic and had colors that didn't really stand out. I love sites that have a background image and that content that is somewhat opaque. So I wanted to recreate this for my new version. I love country side, red dirt road, backgrounds and themes so that is the image I decided to use as my background. I used a darker color that was opaque to display my content to the user; as well as a dark themed background that I think goes really well with the background image.
-
-I learned a lot about responsiveness. I especially learned a lot about media queries. Media queries are just so useful and know that I know more about their use I think I can pull off a lot cooler/functional designs in the future.
+In this updated version of my portfolio I went and changed little things that I either no longer liked or that needed to be spruced up. There was a bug with my mobile responsive burger menu that made the nav break from the header, so I fixed that. I orginally had these "copyright" footers at the bottom of each page and I thought they didn't look great so I took them out. After, I fixed a few minor styling details; I didn't really want to touch the styling because I am still very happy with the overall design of the site. For the additions to the "Projects" page I added Kuma (project 2) and Eat-Da-Burger becuase I thought it was a good representation of what I have learned from the backend. I also added the capability to click and download my resume from my contact page; something I wasn't able to figure out previously and that was recommneded I do by central grading.
+I am overall a lot happier with this updated version of my portfolio.
 
 __LINKS__
 
