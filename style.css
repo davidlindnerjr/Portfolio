@@ -83,7 +83,7 @@ nav{
         overflow-x: hidden;
     }
     .nav-links{
-        position: fixed;
+        position: absolute;
         right: 0px;
         height:92vh;
         top:8vh;
@@ -336,9 +336,6 @@ nav{
 /*------------------ RESPONSIVE ---------------------*/
 
 @media screen and (min-width:1800px){
-    body{
-        overflow-x: hidden;
-    }
     #main-display{
         padding-left:400px;
         padding-right:400px;
@@ -360,9 +357,6 @@ nav{
 
 
 @media screen and (max-width: 450px){
-    body{
-        overflow-x: hidden;
-    }
     #main-display{
         background-color: rgba(0, 0, 0, 0.8);
         padding:60px;
@@ -407,4 +401,5 @@ nav{
         height:100px;
     }
 }
+
 
