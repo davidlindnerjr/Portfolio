@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 In this updated version of my portfolio I went and changed little things that I either no longer liked or that needed to be spruced up. There was a bug with my mobile responsive burger menu that made the nav break from the header, so I fixed that. I orginally had these "copyright" footers at the bottom of each page and I thought they didn't look great so I took them out. After, I fixed a few minor styling details; I didn't really want to touch the styling because I am still very happy with the overall design of the site. For the additions to the "Projects" page I added Kuma (project 2) and Eat-Da-Burger becuase I thought it was a good representation of what I have learned from the backend. I also added the capability to click and download my resume from my contact page; something I wasn't able to figure out previously and that was recommneded I do by central grading.
 I am overall a lot happier with this updated version of my portfolio.
@@ -20,7 +20,7 @@ __SCREENSHOTS__
 ![David Lindner - Portfolio - Google Chrome 10_17_2020 9_13_20 PM](https://user-images.githubusercontent.com/65383133/96358643-5c1a7300-10be-11eb-979f-deb53f1dcf86.png)
 
 
-MIT License
+MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2020 David Lindner
 
