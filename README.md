@@ -16,7 +16,7 @@ __SCREENSHOTS__
 ![David Lindner - Portfolio - Google Chrome 10_17_2020 9_12_33 PM](https://user-images.githubusercontent.com/65383133/96358632-473ddf80-10be-11eb-922a-869cd7820005.png)
 ![David Lindner - Portfolio - Google Chrome 8_24_2020 2_29_10 PM](https://user-images.githubusercontent.com/65383133/96358639-502eb100-10be-11eb-8f78-ed38a6cffd6a.png)
 ![David Lindner - Portfolio - Google Chrome 8_24_2020 2_29_01 PM](https://user-images.githubusercontent.com/65383133/96358637-4dcc5700-10be-11eb-8458-299af01d0f47.png)
-![David Lindner - Portfolio - Google Chrome 10_17_2020 9_12_42 PM](https://user-images.githubusercontent.com/65383133/96358634-4907a300-10be-11eb-930a-ce2b7c5c4842.png)
+![David Lindner - Portfolio - Google Chrome 10_17_2020 9_12_58 PM](https://user-images.githubusercontent.com/65383133/96358694-e4991380-10be-11eb-89d0-2b8e6e41fd7e.png)
 ![David Lindner - Portfolio - Google Chrome 10_17_2020 9_13_37 PM](https://user-images.githubusercontent.com/65383133/96358651-676d9e80-10be-11eb-874d-ddaece60a04a.png)
 ![David Lindner - Portfolio - Google Chrome 10_17_2020 9_13_10 PM](https://user-images.githubusercontent.com/65383133/96358655-6b99bc00-10be-11eb-9500-4af542baba72.png)
 ![David Lindner - Portfolio - Google Chrome 10_17_2020 9_13_29 PM](https://user-images.githubusercontent.com/65383133/96358646-62105400-10be-11eb-9097-6a79679a437b.png)
